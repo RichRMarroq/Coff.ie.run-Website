@@ -1,0 +1,17 @@
+body, html {
+    /* Ensure the body and html take full height */
+    height: 100%;
+    /* padding-top: 50px; /* Adjust this value based on your navbar height */
+    font-family: "Caprasimo", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-image: url('../images/cloud-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+margin-left: 50%;
+transform: translate(-50%);
+}
