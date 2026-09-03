@@ -19,10 +19,38 @@
         crossorigin="anonymous"></script>
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav-header></nav-header>
     <main>
-        </main>
+        <div class="container">
+            <h1>Shops</h1>
+
+            <div class="controls">
+                <div class="search-box">
+                    <label for="search">Search shop by name:</label>
+                    <input type="text" id="search" placeholder="Enter shop name...">
+                </div>
+
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="location">Filter by location:</label>
+                        <select id="location">
+                            <option value="" selected>All Cities</option>
+                            <option value="Downtown">Redlands</option>
+                            <option value="Uptown">San Bernardino</option>
+                            <option value="Suburbs">Riverside</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <i class="fa-solid fa-receipt"></i>
+                        <label for="visited">Visited by Coffiebara:</label>
+                        <input type="checkbox" id="visited">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <nav-footer></nav-footer>
 </body>
