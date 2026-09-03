@@ -17,46 +17,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">coff.ie.run</a>
-            <button class="navbar-toggler mx-auto" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-1" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shops.html">Shops</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </div>
+    <nav-header></nav-header>
+    <main>
+        <div class="spacer">
+            /* This div is used to create space below the fixed navbar */
+            <br><br><br><br><br>
         </div>
-    </nav>
-    <div class="spacer">
-        /* This div is used to create space below the fixed navbar */
-        <br><br><br><br><br>
-    </div>
-    <div class="parent">
-        <img class="image1" src="images/coffee-header.png" alt="Coffee Header">>
-        <img class="image2" src="images/title-banner.png" alt="Coffee Header">
-        <img class="img-button about-button" src="images/about-button.png" alt="About Button" href="about.html">
-        <img class="img-button shops-button" src="images/shops-button.png" alt="Shops Button" href="shops.html">
-        <img class="img-button faq-button" src="images/faq-button.png" alt="FAQ Button" href="faq.html">
-    </div>
-    <footer>
-        <div class="container text-center mt-5 pt-5">
-            <p>&copy; 2024 coff.ie.run. All rights reserved.</p>
+        <div class="parent">
+            <img class="image1" src="images/coffee-header.png" alt="Coffee Header">>
+            <img class="image2" src="images/title-banner.png" alt="Coffee Header">
+            <img class="img-button about-button" src="images/about-button.png" alt="About Button" href="about.html">
+            <img class="img-button shops-button" src="images/shops-button.png" alt="Shops Button" href="shops.html">
+            <img class="img-button faq-button" src="images/faq-button.png" alt="FAQ Button" href="faq.html">
         </div>
-    </footer>
+    </main>
+    <nav-footer></nav-footer>
 </body>
 
 </html>
